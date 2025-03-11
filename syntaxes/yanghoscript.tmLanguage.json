@@ -1,0 +1,164 @@
+{
+	"$schema": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
+	"name": "yanghoscript",
+	"patterns": [
+		{ "include": "#singleLineComment" },
+		{ "include": "#keywords" },
+		{ "include": "#strings" },
+		{ "include": "#numbers" },
+		{ "include": "#variables" },
+		{ "include": "#operators" },
+		{ "include": "#comparisons" },
+		{ "include": "#punctuation" },
+		{ "include": "#space" }
+	],
+	"repository": {
+		"keywords": {
+			"patterns": [
+				{
+					"name": "keyword.control.yanghoscript",
+					"match": "\\b(if|while|for|return)\\b"
+				},
+				{
+					"name": "keyword.control.yanghoscript.log",
+					"match": "NOILIENTUC"
+				},
+				{
+					"name": "keyword.control.yanghoscript.if",
+					"match": "NEU"
+				},
+				{
+					"name": "keyword.control.yanghoscript.else",
+					"match": "KOTHI"
+				},
+				{
+					"name": "keyword.control.yanghoscript.function",
+					"match": "DIT"
+				},
+				{
+					"name": "keyword.control.yanghoscript.return",
+					"match": "TRA"
+				}
+			]
+		},
+		"strings": {
+			"patterns": [
+				{
+					"name": "string.quoted.double.yanghoscript",
+					"begin": "\"",
+					"end": "\"",
+					"patterns": [
+						{
+							"name": "constant.character.escape.yanghoscript",
+							"match": "\\\\."
+						}
+					]
+				},
+				{
+					"name": "string.quoted.single.yanghoscript",
+					"begin": "'",
+					"end": "'",
+					"patterns": [
+						{
+							"name": "constant.character.escape.yanghoscript",
+							"match": "\\\\."
+						}
+					]
+				}
+			]
+		},
+		"numbers": {
+			"name": "constant.numeric.yanghoscript",
+			"match": "[0-9]+"
+		},
+		"variables": {
+			"name": "variable.other.yanghoscript",
+			"match": "[a-z]+"
+		},
+		"operators": {
+			"patterns": [
+				{
+					"name": "keyword.operator.assignment.yanghoscript",
+					"match": "\\="
+				},
+				{
+					"name": "keyword.operator.minus.yanghoscript",
+					"match": "\\-"
+				},
+				{
+					"name": "keyword.operator.plus.yanghoscript",
+					"match": "\\+"
+				},
+				{
+					"name": "keyword.operator.mult.yanghoscript",
+					"match": "\\*"
+				},
+				{
+					"name": "keyword.operator.div.yanghoscript",
+					"match": "\\/"
+				}
+			]
+		},
+		"comparisons": {
+			"patterns": [
+				{
+					"name": "keyword.operator.equal.yanghoscript",
+					"match": "UYTIN"
+				},
+				{
+					"name": "keyword.operator.less.yanghoscript",
+					"match": "ITHON"
+				},
+				{
+					"name": "keyword.operator.more.yanghoscript",
+					"match": "NHIEUHON"
+				},
+				{
+					"name": "keyword.operator.lesseq.yanghoscript",
+					"match": "ITBANG"
+				},
+				{
+					"name": "keyword.operator.moreeq.yanghoscript",
+					"match": "NHIEUBANG"
+				}
+			]
+		},
+		"punctuation": {
+			"patterns": [
+				{
+					"name": "punctuation.semicolon.yanghoscript",
+					"match": "IM"
+				},
+				{
+					"name": "punctuation.comma.yanghoscript",
+					"match": ","
+				},
+				{
+					"name": "punctuation.lparen.yanghoscript",
+					"match": "\\("
+				},
+				{
+					"name": "punctuation.rparen.yanghoscript",
+					"match": "\\)"
+				},
+				{
+					"name": "punctuation.lbrace.yanghoscript",
+					"match": "ME"
+				},
+				{
+					"name": "punctuation.rbrace.yanghoscript",
+					"match": "MAY"
+				}
+			]
+		},
+		"space": {
+			"name": "text.whitespace.yanghoscript",
+			"match": "[ \\n\\t\\r]+"
+		},
+		"singleLineComment": {
+			"name": "comment.line.double-slash.yanghoscript",
+			"match": "//[^\n]*"
+		}
+	},
+	"scopeName": "source.yanghoscript"
+}

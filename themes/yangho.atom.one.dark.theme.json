@@ -1,0 +1,91 @@
+{
+	"name": "Yanghoscript Atom One Dark",
+	"type": "dark",
+	"colors": {
+		"editor.background": "#282C34",
+		"editor.foreground": "#ABB2BF"
+	},
+	"tokenColors": [
+		{
+			"scope": "keyword.control.yanghoscript",
+			"settings": {
+				"foreground": "#C678DD"
+			}
+		},
+		{
+			"scope": [
+				"keyword.control.yanghoscript.log",
+				"keyword.control.yanghoscript.if",
+				"keyword.control.yanghoscript.else",
+				"keyword.control.yanghoscript.function",
+				"keyword.control.yanghoscript.return"
+			],
+			"settings": {
+				"foreground": "#C678DD"
+			}
+		},
+		{
+			"scope": [
+				"string.quoted.double.yanghoscript",
+				"string.quoted.single.yanghoscript"
+			],
+			"settings": {
+				"foreground": "#98C379"
+			}
+		},
+		{
+			"scope": "constant.numeric.yanghoscript",
+			"settings": {
+				"foreground": "#D19A66"
+			}
+		},
+		{
+			"scope": "variable.other.yanghoscript",
+			"settings": {
+				"foreground": "#E06C75"
+			}
+		},
+		{
+			"scope": [
+				"keyword.operator.assignment.yanghoscript",
+				"keyword.operator.minus.yanghoscript",
+				"keyword.operator.plus.yanghoscript",
+				"keyword.operator.mult.yanghoscript",
+				"keyword.operator.div.yanghoscript",
+				"keyword.operator.equal.yanghoscript",
+				"keyword.operator.less.yanghoscript",
+				"keyword.operator.more.yanghoscript",
+				"keyword.operator.lesseq.yanghoscript",
+				"keyword.operator.moreeq.yanghoscript"
+			],
+			"settings": {
+				"foreground": "#56B6C2"
+			}
+		},
+		{
+			"scope": [
+				"punctuation.semicolon.yanghoscript",
+				"punctuation.comma.yanghoscript",
+				"punctuation.lparen.yanghoscript",
+				"punctuation.rparen.yanghoscript",
+				"punctuation.lbrace.yanghoscript",
+				"punctuation.rbrace.yanghoscript"
+			],
+			"settings": {
+				"foreground": "#ABB2BF"
+			}
+		},
+		{
+			"scope": "text.whitespace.yanghoscript",
+			"settings": {
+				"foreground": "#ABB2BF"
+			}
+		},
+		{
+			"scope": ["comment.line.double-slash.yanghoscript", "comment"],
+			"settings": {
+				"foreground": "#808080"
+			}
+		}
+	]
+}
