@@ -3,7 +3,7 @@
 	"displayName": "YanghoScript theme",
 	"description": "Theme for YanghoScript",
 	"publisher": "Hoachnt",
-	"version": "0.0.1",
+	"version": "0.0.2",
 	"engines": {
 		"vscode": "^1.87.0"
 	},
