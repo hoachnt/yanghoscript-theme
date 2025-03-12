@@ -36,6 +36,14 @@ No known issues at the moment. If you encounter any problems, please report them
 
 ## Release Notes
 
+### 0.1.2
+
+-   Update README
+
+### 0.1.1
+
+-   Rename function keyword from DIT to THE
+
 ### 0.1.0
 
 -   Completely changed the plugin from the theme to a plugin to support the YanghoScript programming language
