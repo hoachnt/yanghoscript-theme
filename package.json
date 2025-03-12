@@ -2,9 +2,10 @@
 	"name": "yanghoscript-theme",
 	"displayName": "YanghoScript theme",
 	"description": "Theme for YanghoScript",
+	"publisher": "Hoachnt",
 	"version": "0.0.1",
 	"engines": {
-		"vscode": "^1.98.0"
+		"vscode": "^1.87.0"
 	},
 	"categories": [
 		"Programming Languages"
