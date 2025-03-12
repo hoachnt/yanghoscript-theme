@@ -1,27 +1,55 @@
-# Giao diện YanghoScript
+# YanghoScript Language Support for VS Code
 
-YanghoScript Theme là G=giao diện dành cho Visual Studio Code được thiết kế để cung cấp khả năng tô sáng cú pháp tốt hơn cho ngôn ngữ YanghoScript.
+YanghoScript Language Support is a Visual Studio Code extension that provides syntax highlighting, language configuration, and basic snippets for the YanghoScript programming language.
 
-## Điểm đặc biệt
+## Features
 
--   Bảng màu tối giống Atom One
--   Làm nổi bật các từ khóa, chuỗi, số, toán tử và chú thích
--   Hỗ trợ bình luận một dòng (tô sáng màu xám)
+-   Syntax highlighting for YanghoScript, including:
+    -   Keywords, strings, numbers, operators, and comments
+    -   Single-line and multi-line comments support
+-   Basic language configuration:
+    -   Auto-closing brackets and quotes
+    -   Comment toggling with `Ctrl + /`
+-   Snippet support for common YanghoScript constructs (coming soon)
 
-## Cài đặt
+## Installation
 
-Tải xuống và cài đặt tiện ích mở rộng thông qua VS Code Marketplace hoặc cài đặt từ gói .vsix.
+You can install this extension in one of the following ways:
 
-## Cách sử dụng
+1. **From the VS Code Marketplace** (Recommended)
 
-Chỉ cần mở tệp `.ys` và chọn chủ đề "YanghoScript Atom One Dark" trong phần cài đặt chủ đề.
+    - Open VS Code and go to **Extensions** (`Ctrl + Shift + X`).
+    - Search for **YanghoScript** and click **Install**.
 
-## Các vấn đề đã biết
+2. **From a `.vsix` package**
+    - Download the `.vsix` file from the [Releases](https://github.com/hoachnt/yanghoscript-vscode-extension/releases) page.
+    - Open VS Code and run `Extensions: Install from VSIX...` from the command palette (`Ctrl + Shift + P`).
 
-Hiện tại chưa có vấn đề nào được biết đến.
+## Usage
 
-## Ghi chú phát hành
+1. Open a `.ys` file in VS Code.
+2. The extension will automatically apply syntax highlighting and language settings.
+
+## Known Issues
+
+No known issues at the moment. If you encounter any problems, please report them on our [GitHub Issues](https://github.com/hoachnt/yanghoscript-vscode-extension/issues) page.
+
+## Release Notes
+
+### 0.1.0
+
+-   Completely changed the plugin from the theme to a plugin to support the YanghoScript programming language
+-   Updated README and metadata
+
+### 0.0.2
+
+-   Improved syntax highlighting
+-   Updated README and metadata
 
 ### 0.0.1
 
-Phiên bản phát hành đầu tiên.
+-   Initial release with basic syntax highlighting and language support.
+
+---
+
+Developed by [Hoachnt](https://github.com/hoachnt).

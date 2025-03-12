@@ -1,25 +1,40 @@
 {
-	"name": "yanghoscript-theme",
-	"displayName": "YanghoScript theme",
-	"description": "Theme for YanghoScript",
+	"name": "yanghoscript",
+	"displayName": "YanghoScript",
+	"description": "Syntax highlighting and language support for YanghoScript",
 	"publisher": "Hoachnt",
 	"version": "0.0.2",
+	"license": "MIT",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/hoachnt/yanghoscript-vscode-extension.git"
+	},
+	"bugs": {
+		"url": "https://github.com/hoachnt/yanghoscript-vscode-extension/issues"
+	},
+	"homepage": "https://github.com/hoachnt/yanghoscript-vscode-extension",
+	"icon": "icon.png",
+	"keywords": [
+		"yanghoscript",
+		"syntax",
+		"highlighting",
+		"programming-language",
+		"vscode-extension"
+	],
 	"engines": {
 		"vscode": "^1.87.0"
 	},
 	"categories": [
 		"Programming Languages"
 	],
-	"repository": {
-		"type": "git",
-		"url": "https://github.com/hoachnt/yanghoscript-theme.git"
-	},
+	"activationEvents": [],
 	"contributes": {
 		"languages": [
 			{
 				"id": "yanghoscript",
 				"aliases": [
-					"yanghoscript"
+					"YanghoScript",
+					"YScript"
 				],
 				"extensions": [
 					".ys"
@@ -34,12 +49,19 @@
 				"path": "./syntaxes/yanghoscript.tmLanguage.json"
 			}
 		],
-		"themes": [
+		"snippets": [
 			{
-				"label": "Yanghoscript Atom One Dark",
-				"uiTheme": "vs-dark",
-				"path": "./themes/yangho.atom.one.dark.theme.json"
+				"language": "yanghoscript",
+				"path": "./snippets/yanghoscript.code-snippets"
 			}
 		]
-	}
+	},
+	"scripts": {
+		"compile": "npx vscode-textmate-grammar --input syntaxes/yanghoscript.tmLanguage.json --output syntaxes/yanghoscript.tmLanguage"
+	},
+	"devDependencies": {
+		"vscode": "^1.87.0",
+		"vscode-textmate-grammar": "^0.3.0"
+	},
+	"dependencies": {}
 }
