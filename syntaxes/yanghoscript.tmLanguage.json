@@ -33,7 +33,7 @@
 				},
 				{
 					"name": "keyword.control.yanghoscript.function",
-					"match": "DIT"
+					"match": "THE"
 				},
 				{
 					"name": "keyword.control.yanghoscript.return",
