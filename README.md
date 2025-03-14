@@ -36,6 +36,10 @@ No known issues at the moment. If you encounter any problems, please report them
 
 ## Release Notes
 
+### 0.2.0
+
+-   Add multi-line comment highlighting
+
 ### 0.1.2
 
 -   Update README
