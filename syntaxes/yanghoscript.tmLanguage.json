@@ -3,6 +3,7 @@
 	"name": "yanghoscript",
 	"patterns": [
 		{ "include": "#singleLineComment" },
+		{ "include": "#multiLineComment" },
 		{ "include": "#keywords" },
 		{ "include": "#strings" },
 		{ "include": "#numbers" },
@@ -132,22 +133,6 @@
 				{
 					"name": "punctuation.comma.yanghoscript",
 					"match": ","
-				},
-				{
-					"name": "punctuation.lparen.yanghoscript",
-					"match": "\\("
-				},
-				{
-					"name": "punctuation.rparen.yanghoscript",
-					"match": "\\)"
-				},
-				{
-					"name": "punctuation.lbrace.yanghoscript",
-					"match": "ME"
-				},
-				{
-					"name": "punctuation.rbrace.yanghoscript",
-					"match": "MAY"
 				}
 			]
 		},
@@ -157,7 +142,12 @@
 		},
 		"singleLineComment": {
 			"name": "comment.line.double-slash.yanghoscript",
-			"match": "//[^\n]*"
+			"match": "//[^\\n]*"
+		},
+		"multiLineComment": {
+			"name": "comment.block.yanghoscript",
+			"begin": "/\\*",
+			"end": "\\*/"
 		}
 	},
 	"scopeName": "source.yanghoscript"
