@@ -34,34 +34,6 @@ You can install this extension in one of the following ways:
 
 No known issues at the moment. If you encounter any problems, please report them on our [GitHub Issues](https://github.com/hoachnt/yanghoscript-vscode-extension/issues) page.
 
-## Release Notes
-
-### 0.2.0
-
--   Add multi-line comment highlighting
-
-### 0.1.2
-
--   Update README
-
-### 0.1.1
-
--   Rename function keyword from DIT to THE
-
-### 0.1.0
-
--   Completely changed the plugin from the theme to a plugin to support the YanghoScript programming language
--   Updated README and metadata
-
-### 0.0.2
-
--   Improved syntax highlighting
--   Updated README and metadata
-
-### 0.0.1
-
--   Initial release with basic syntax highlighting and language support.
-
 ---
 
 Developed by [Hoachnt](https://github.com/hoachnt).
